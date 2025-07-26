@@ -55,10 +55,11 @@ php artisan tinker
 
 📁 Folder Structure
 routes/web.php              → Web routes
-app/Http/Controllers/BookListController.php
-app/Models/BookList.php
+app/Http/Controllers/BookController.php
+app/Models/Book.php
 resources/views/books/      → Blade templates (index/create)
 database/migrations/        → Book table schema
+
 🙌 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change or improve.
 
