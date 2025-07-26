@@ -22,13 +22,6 @@ A simple Laravel-based application to manage a list of books. Users can add, vie
 - MySQL or SQLite (configurable)
 - Laravel's built-in validation & pagination
 
----
-
-## 📷 Screenshots
-
-> _(Add your screenshots here)_
-
----
 
 ## 🧑‍💻 Setup Instructions
 
@@ -75,4 +68,4 @@ This project is open-source and available under the MIT license.
 👤 Author
 Joshua Tinu
 Full-stack developer | Laravel
-LinkedIn • Portfolio • Twitter
+LinkedIn https://www.linkedin.com/in/joshua-dangana-a68a75312/
