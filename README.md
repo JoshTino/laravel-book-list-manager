@@ -47,26 +47,26 @@ php artisan serve
 Visit http://127.0.0.1:8000
 
 ## 🧪 Seeding (Optional)
---You can use Laravel factories to seed sample books:
+- You can use Laravel factories to seed sample books:
 
 php artisan tinker
--// In Tinker
--\App\Models\Book::factory()->count(10)->create();
+- // In Tinker
+- \App\Models\Book::factory()->count(10)->create();
 
 ## 📁 Folder Structure
--routes/web.php              → Web routes
--app/Http/Controllers/BookController.php
--app/Models/Book.php
--resources/views/books/      → Blade templates (index/create)
--database/migrations/        → Book table schema
+- routes/web.php              → Web routes
+- app/Http/Controllers/BookController.php
+- app/Models/Book.php
+- resources/views/books/      → Blade templates (index/create)
+- database/migrations/        → Book table schema
 
 ## 🙌 Contributing
--Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change or improve.
+- Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change or improve.
 
 ##📄 License
 This project is open-source and available under the MIT license.
 
 ##👤 Author
 Joshua Tinu
--Full-stack developer | Laravel
--LinkedIn https://www.linkedin.com/in/joshua-dangana-a68a75312/
+- Full-stack developer | Laravel
+- LinkedIn https://www.linkedin.com/in/joshua-dangana-a68a75312/
