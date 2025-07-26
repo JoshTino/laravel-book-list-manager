@@ -53,7 +53,7 @@ php artisan tinker
 // In Tinker
 \App\Models\Book::factory()->count(10)->create();
 
---📁 Folder Structure
+📁 Folder Structure
 routes/web.php              → Web routes
 app/Http/Controllers/BookListController.php
 app/Models/BookList.php
