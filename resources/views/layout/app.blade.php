@@ -18,8 +18,8 @@
         <nav class="flex justify-between bg-white p-6 mb-5">
             <h1 class="text-3xl font-bold"><a href="/">Book List Manager</a></h1>
             <ul class="flex item-center ">
-                <li class="px-2"><a href="{{ route('addbook') }}">Add Book</a></li>
-                <li class="px-2"><a href="{{ route('viewbook') }}">View Book(s)</a></li>
+                <li class="px-2"><a href="{{ route('book.index') }}">Add Book</a></li>
+                <li class="px-2"><a href="{{ route('book.view') }}">View Book(s)</a></li>
             </ul>
         </nav>
 

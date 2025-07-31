@@ -5,7 +5,7 @@
 
 <div class="flex justify-center">
 	<div class="w-4/12 bg-white rounded-lg p-3">
-		<form action="{{ route('effectchanges', $books->id) }}" method="post">
+		<form action="{{ route('book.update', $books->id) }}" method="post">
 			@csrf
 			<div class="mb-4">
 				<h3 class="text-center font-bold text-lg">Edit Book</h3>

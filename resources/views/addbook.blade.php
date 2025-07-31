@@ -6,7 +6,7 @@
 <div class="flex justify-center">
 	<div class="w-4/12 bg-white p-3 rounded-lg">
 
-		<form action="{{ route('addbook') }}" method="post">
+		<form action="{{ route('book.add') }}" method="post">
 			@csrf
 			<div class="mb-4">
 				<h3 class="font-bold text-lg text-center">Add book</h3>

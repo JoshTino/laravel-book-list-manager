@@ -24,7 +24,7 @@
 							<td class="border-1 border-gray-200 p-2">{{ $book->author }}</td>
 							<td class="border-1 border-gray-200 p-2">{{ $book->title }}</td>
 							<td class="flex justify-between border-1 border-gray-200 p-2">
-								<form action="{{ route('book.action', $book->id) }}" method="post">
+								<form action="{{ route('book.parse', $book->id) }}" method="post">
 									@csrf
 									<button class="px-2 mx-2 rounded-sm bg-yellow-500 cursor-pointer text-white">Edit</button>
 								</form>

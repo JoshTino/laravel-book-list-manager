@@ -4,21 +4,17 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\BookListController;
 
-Route::get('/', function () {
-    return view('layout.app');
-});
-
 
 Route::controller(BookListController::class)->group( function () {
 
-    Route::get('/newbook', 'index')->name('addbook');
-    Route::post('/newbook', 'addBook');
+    Route::get('/book', 'index')->name('book.index');
+    Route::post('/book/add', 'addBook')->name('book.add');
     
-    Route::get('/viewbook', 'index2')->name('viewbook');
+    Route::get('/', 'viewBook')->name('book.view');
     
-    Route::post('/book/{id}/edit', 'parseBookData')->name('book.action');
+    Route::post('{id}', 'parseBook')->name('book.parse');
 
-    Route::delete('/book/{id}/delete', 'deleteBook')->name('book.delete');
+    Route::delete('/book/{id}', 'deleteBook')->name('book.delete');
     
-    Route::post('{id}', 'submitEdit')->name('effectchanges');
+    Route::post('/book/{id}', 'updateBook')->name('book.update');
 });
